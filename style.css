@@ -1,0 +1,47 @@
+body{
+	background: #F3F5FC;
+}
+
+.caixa{
+	display: inline-block;
+	text-align: center;
+}
+
+.logo{
+	position: relative;
+	width:50%;
+	margin-top: 30px;
+	margin-left: 20%;
+
+}
+
+h1{
+	position: absolute;
+	display: inline;
+	margin-left: 2%;
+	top: 120px ;
+	color: #0A3871 ;
+	font-weight: bold; 
+	font-size: 350%;
+}
+
+.principal{
+	position: relative;
+	width: 680px;
+	height: 48px;
+	left: 240px;
+	top: 80px;
+}
+.principal input{
+	width: 700px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+
+	border: 2px solid #F3F5FC;
+	border-radius: 20px;
+
+	box-shadow: 5px 5px 5px black ;
+}
