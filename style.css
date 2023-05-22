@@ -33,6 +33,7 @@ h1{
 	height: 48px;
 	left: 240px;
 	top: 80px;
+	margin-bottom: 400px;
 }
 .principal input{
 	width: 700px;
@@ -56,14 +57,17 @@ h1{
 
 footer{
 	position: absolute;
+	display: inline-block;
+	margin-right: 35%;
+	margin-left: 35%;
 	text-align: center;
 	padding: 40px 0;
 	bottom:0;
 }
 
 footer img{
-	display: inline-block;
-	width: 10%;
+	width: 30%;
 	border-radius: 50%;
-
 }
+
+
