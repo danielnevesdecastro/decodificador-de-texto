@@ -11,7 +11,7 @@ body{
 }
 
 main {
-	margin: 2%;
+	
 	
 }
 .caixa{
@@ -37,11 +37,11 @@ h1{
 
 .descriptografia{
 	float: right;
-	display: inline-block;
+	display: block;
 	width: 40%;
 	height: 700px;
 	right: 0;
-	margin-left: 2%;
+	margin: 2%;
 	background: #FFFFFF;
 	border-radius: 32px;
 	padding: 5% 0 2%  0;
@@ -144,17 +144,30 @@ main::after{
 footer{
 	background: #CCCCCC;
 	text-align: center;
-	padding: 1% 0% 2% 0%;
-	margin: 0% auto 0% auto;
+	padding: 1% 0% 1% 0%;
+	margin: 0% auto;
 	width: 100%;
-	
-	
 }
+
+
 
 footer img{
-	display: inline ;
+	display: inline-block;
 	border-radius: 50%;
-	width: 5%;
+	margin-right: 2%;
+	width: 100px;
 
 }
 
+.contato{
+	position: relative;
+	display: inline-block;
+	margin: 0% auto;
+	
+
+}
+
+.contato p{
+	
+	
+}
