@@ -2,37 +2,28 @@
 	box-sizing: border-box;
 }
 
-html{
-	 height: 100%;
-   	 min-height: 100%;
-}
 
-body{
+main{
+	
 	background: #F3F5FC;
 	font-family: Arial, Halvetica, sans-seri;
-	margin: 0%;
 	width: 100%;
-	
+	height: 100%;
+	padding: 2% 5% 0 10%;
 }
 
-main {
-	
-	
-}
 .caixa{
 	display: inline-block;
-	width: 50%;
-	margin: 1% 0 1% 2%;
-
-}
-
-.logo{
-	
-	width:100px;
+	width: 40%;
 	
 }
 
-h1{
+.logo{	
+	width:150px;
+	vertical-align: middle;
+}
+
+.titulo{
 	display: inline-block;
 	padding: 2%;
 	color: #0A3871 ;
@@ -42,28 +33,35 @@ h1{
 
 .descriptografia{
 	float: right;
-	display: block;
+	right: 10%;
 	width: 40%;
 	height: 700px;
-	right: 0;
-	margin: 2%;
+	margin: 5% 1%;
 	background: #FFFFFF;
 	border-radius: 32px;
 	padding: 5% 0 2%  0;
-	
 }
 
 .descriptografia input{
-	display: block;
-	margin: 0 auto;
+	font-style: normal;
+	font-weight: 400%;
+	font-size: 200%;
+	line-height: 150%;
+	border: 2px none #F3F5FC;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px black ;
+	color: #0A3871;
 }
 
 .principal{
-	left: 0;
+	position: relative;
+	width: 50%;
+	padding: 5% 0 5% 0;
+	margin: 2% 0 2% 0;
 }
 
-.principal input, .descriptografia input{
-	position: relative;
+
+.principal input{
 	font-style: normal;
 	font-weight: 400%;
 	font-size: 200%;
@@ -85,10 +83,10 @@ h1{
 }
 
 .infoSimbol{
-	width: 20px;
+	width: 3%;
 	margin-bottom: 2%;
-
 }
+
 .info{
 	display: inline-block;
 	font-weight: bold; 
@@ -98,11 +96,10 @@ h1{
 } 
 
 .botoes button{
-	width: 328px;
-	height: 67px;
+	width: 40%;
 	border: 2px solid #0A3871;
 	border-radius: 24px;
-	padding: 2px;
+	padding: 3%;
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 600;
@@ -136,18 +133,20 @@ h1{
 }
 
 
-
 main::after{
 	content: "";
 	display: block;
 	clear: both;
 }
 
+
 .rodape{
+	;
+    bottom: 0;
 	margin: 0 20% 0 20%;
 	background: #CCCCCC;
 	text-align: center;
-	padding: 1% 0% 1% 0%;
+	padding: 0.5% 0% 0.5% 0%;
 	margin: auto;
 	width: 100%;
 }
@@ -162,9 +161,7 @@ main::after{
 
 .contato{
 	display: inline-block;
-	margin: 1% auto;
 	text-align: center;
-	padding: 1%;
 }
 
 
