@@ -145,14 +145,11 @@ main::after{
 
 .rodape{
 	margin: 0 20% 0 20%;
-	position: relative;
 	background: #CCCCCC;
 	text-align: center;
 	padding: 1% 0% 1% 0%;
 	margin: auto;
 	width: 100%;
-	bottom: 0%;
-
 }
 
 .rodape img{
@@ -165,7 +162,7 @@ main::after{
 
 .contato{
 	display: inline-block;
-	margin: 0 auto;
+	margin: 1% auto;
 	text-align: center;
 	padding: 1%;
 }
