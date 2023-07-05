@@ -22,6 +22,7 @@ function btnDescriptografado(){
 function copiar(){
 	msgCripografar.value = msgDescriptografar.value;
 	msgDescriptografar.value = " ";
+	navigator.clipboard.writeText(msgCripografar.value);
 }
 
 function limpar(){

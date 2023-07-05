@@ -18,14 +18,25 @@
 
 	<body>
 		<header>
-		
-		</header>
-
-		<main>
 			<div class="caixa">
 				<img src="criptografia.png" class="logo" alt="Cadeado">
 				<h1 class="titulo">DECODIFICADOR</h1>
 			</div>
+		</header>
+
+		<main>
+			<section class="principal">
+					<label for="mensagemCriptografar"><input type="text" id="mensagemCriptografar" placeholder="Digite seu Texto"></label>
+				
+				<section class="botoes">
+					<div class="aviso">
+						<img  src="info.png" class="infoSimbol" alt="Simbolo de informação">
+						<h6 class="info">Apenas letras minúsculas e sem acento.</h6><br>	
+					</div>
+					<button class="firstbutton" onclick="btnCriptografado()">Criptografar</button>
+					<button class="secondbutton" onclick="btnDescriptografado()">Descriptografar</button>
+				</section>
+			</section>
 
 			<section class="descriptografia">
 					<label for="mensagemDescriptografada" ><input type="text" id="mensagemDescriptografada"></label>
@@ -33,19 +44,6 @@
 						<button class="copiar" onclick="copiar()">COPIAR</button>
 						<button class="limpar" onclick="limpar()">Limpar</button>
 					</div>
-			</section>
-
-			<section class="principal">
-					<label for="mensagemCriptografar"><input type="text" id="mensagemCriptografar" placeholder="Digite seu Texto"></label>
-				
-				<section class="botoes">
-					<div class="aviso">
-						<img  src="info.png" class="infoSimbol" alt="Simbolo de informação">
-						<p class="info">Apenas letras minúsculas e sem acento.</p><br>	
-					</div>
-					<button class="firstbutton" onclick="btnCriptografado()">Criptografar</button>
-					<button class="secondbutton" onclick="btnDescriptografado()">Descriptografar</button>
-				</section>
 			</section>
 		</main>
 
@@ -60,6 +58,7 @@
 		</footer>
 
 		<script type="text/javascript" src="script.js"></script>
+		
 	</body>
 	
 
