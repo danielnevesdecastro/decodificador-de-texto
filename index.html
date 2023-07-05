@@ -6,6 +6,7 @@
 
 
 		<title>DECODIFICADOR</title>
+		<link rel="icon" href="icon-lock.png">
 
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
@@ -21,7 +22,6 @@
 		</header>
 
 		<main>
-
 			<div class="caixa">
 				<img src="criptografia.png" class="logo" alt="Cadeado">
 				<h1 class="titulo">DECODIFICADOR</h1>
@@ -29,22 +29,22 @@
 
 			<section class="descriptografia">
 					<label for="mensagemDescriptografada" ><input type="text" id="mensagemDescriptografada"></label>
+					<div class="descript-botoes">
+						<button class="copiar" onclick="copiar()">COPIAR</button>
+						<button class="limpar" onclick="limpar()">Limpar</button>
+					</div>
 			</section>
 
 			<section class="principal">
 					<label for="mensagemCriptografar"><input type="text" id="mensagemCriptografar" placeholder="Digite seu Texto"></label>
 				
-
-				
-
-
 				<section class="botoes">
 					<div class="aviso">
 						<img  src="info.png" class="infoSimbol" alt="Simbolo de informação">
 						<p class="info">Apenas letras minúsculas e sem acento.</p><br>	
 					</div>
-					<button class="firstbutton">Criptografar</button>
-					<button class="secondbutton">Descriptografar</button>
+					<button class="firstbutton" onclick="btnCriptografado()">Criptografar</button>
+					<button class="secondbutton" onclick="btnDescriptografado()">Descriptografar</button>
 				</section>
 			</section>
 		</main>
@@ -58,6 +58,8 @@
 				</div>
 			</div>	
 		</footer>
+
+		<script type="text/javascript" src="script.js"></script>
 	</body>
 	
 
