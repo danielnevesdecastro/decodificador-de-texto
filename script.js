@@ -25,7 +25,7 @@ function copiar(){
 }
 
 function limpar(){
-	msgCripografar.value = "Digite seu Texto";
+	msgCripografar.value = " ";
 	msgDescriptografar.value = " ";
 
 }
